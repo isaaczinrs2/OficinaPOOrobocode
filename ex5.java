@@ -10,9 +10,9 @@ public class Ctrl extends Robot {
     }
 
     public void onHitWall(HitWallEvent e) {
-        setDebugProperty("identificador", String.valueOf(e.getBearing()));
-       degrees = 90 - (e.getBearing());
-	   
-		turnLeft(e.getBearing));
-    }
+    double degrees = 90 - e.getBearing();
+    setDebugProperty("identificador", String.valueOf(e.getBearing()));
+    turnLeft(degrees);
+	}
+
 }

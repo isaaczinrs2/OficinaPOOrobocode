@@ -5,7 +5,7 @@ public class Ctrl extends Robot {
     public void run() {
         while (true) {
             ahead(800); 
-            turnLeft(90); 
+          
         }
     }
 

@@ -1,7 +1,7 @@
 /*
 Isaac de Castro Amorim
 Atividade 03
-VowelCont
+VowelCount
 02/06/25
 */
 public class Vowels {

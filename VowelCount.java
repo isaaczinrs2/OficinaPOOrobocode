@@ -2,7 +2,7 @@
 Isaac de Castro Amorim
 Atividade 03
 VowelCont
-08/05/25
+02/06/25
 */
 public class Vowels {
     public static int getCountFor(String str) {
